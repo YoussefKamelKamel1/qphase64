@@ -1,0 +1,17 @@
+name: qphase64
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - libblas=*=*openblas
+  - numpy>=1.26
+  - scipy>=1.11
+  - scikit-learn>=1.4
+  - matplotlib>=3.8
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - pennylane>=0.40
+      - pennylane-lightning
+      - torch>=2.0

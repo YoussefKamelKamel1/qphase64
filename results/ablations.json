@@ -1,0 +1,128 @@
+[
+ {
+  "group": "M1 depth",
+  "config": "L=1",
+  "params": 8,
+  "size_independent": true,
+  "train_k16": 0.9583333333333334,
+  "near_k4": 0.75,
+  "near_k16": 0.8333333333333334,
+  "near_k64": 0.8333333333333334,
+  "seconds": 130.0
+ },
+ {
+  "group": "M1 depth",
+  "config": "L=2",
+  "params": 16,
+  "size_independent": true,
+  "train_k16": 0.9166666666666666,
+  "near_k4": 0.7916666666666666,
+  "near_k16": 0.8125,
+  "near_k64": 0.8541666666666666,
+  "seconds": 258.3
+ },
+ {
+  "group": "M1 depth",
+  "config": "L=3",
+  "params": 24,
+  "size_independent": true,
+  "train_k16": 0.9583333333333334,
+  "near_k4": 0.7708333333333334,
+  "near_k16": 0.8125,
+  "near_k64": 0.8125,
+  "seconds": 390.3
+ },
+ {
+  "group": "M1 kernel",
+  "config": "general (9)",
+  "params": 20,
+  "size_independent": false,
+  "train_k16": 0.9583333333333334,
+  "near_k4": 0.75,
+  "near_k16": 0.8125,
+  "near_k64": 0.7916666666666666,
+  "seconds": 331.7
+ },
+ {
+  "group": "M1 readout",
+  "config": "m_abs only",
+  "params": 16,
+  "size_independent": true,
+  "train_k16": 0.7083333333333334,
+  "near_k4": 0.75,
+  "near_k16": 0.75,
+  "near_k64": 0.75,
+  "seconds": 256.8
+ },
+ {
+  "group": "M1 readout",
+  "config": "m_abs+stag",
+  "params": 16,
+  "size_independent": true,
+  "train_k16": 0.9166666666666666,
+  "near_k4": 0.7916666666666666,
+  "near_k16": 0.8125,
+  "near_k64": 0.8541666666666666,
+  "seconds": 259.5
+ },
+ {
+  "group": "M1 readout",
+  "config": "+c1",
+  "error": "operands could not be broadcast together with shapes (1,1,3) (1,25,2) "
+ },
+ {
+  "group": "M1 loss",
+  "config": "C1",
+  "params": 16,
+  "size_independent": true,
+  "train_k16": 0.7291666666666666,
+  "near_k4": 0.7291666666666666,
+  "near_k16": 0.6666666666666666,
+  "near_k64": 0.6666666666666666,
+  "seconds": 253.0
+ },
+ {
+  "group": "M1 loss",
+  "config": "C2",
+  "params": 16,
+  "size_independent": true,
+  "train_k16": 0.9166666666666666,
+  "near_k4": 0.7916666666666666,
+  "near_k16": 0.8125,
+  "near_k64": 0.8541666666666666,
+  "seconds": 253.4
+ },
+ {
+  "group": "M2 n_out",
+  "config": "1",
+  "params": 14,
+  "size_independent": true,
+  "train_k16": 0.7291666666666666,
+  "near_k4": 0.6875,
+  "near_k16": 0.6666666666666666,
+  "near_k64": 0.75,
+  "seconds": 244.3
+ },
+ {
+  "group": "M2 n_out",
+  "config": "2",
+  "params": 18,
+  "size_independent": true,
+  "train_k16": 0.8541666666666666,
+  "near_k4": 0.75,
+  "near_k16": 0.8958333333333334,
+  "near_k64": 0.8333333333333334,
+  "seconds": 234.5
+ },
+ {
+  "group": "M2 tying",
+  "config": "untied",
+  "params": 40,
+  "size_independent": false,
+  "train_k16": 0.8958333333333334,
+  "near_k4": 0.6666666666666666,
+  "near_k16": 0.75,
+  "near_k64": 0.8541666666666666,
+  "seconds": 236.1
+ }
+]

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qphase64"
+version = "1.0.0"
+description = "Quantum phase recognition from at most 64 copies per state"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "scikit-learn>=1.4",
+    "matplotlib>=3.8",
+    "pennylane>=0.40",
+    "torch>=2.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
